@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    width: 1280px;
+    background: rgba(44, 43, 61, 1);
+    font-family:'JetBrains Mono', monospace;
+    font-weight: normal;
+}
+header{
+    width: 1083px;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 71px auto;
+
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+   
+}
+nav a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+nav a:hover{
+    color: rgba(0, 191, 166, 1);
+}
+    
+
+.conteudo-principal{
+    width: 1092px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    text-align: center;
+    margin: 0 auto;
+}
+.imagem-principal{
+    width: 401px;
+}
+    
+section{
+    width: 609px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+}
+h1{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 36px;
+   
+    line-height: 40px;
+   
+    color: rgba(255, 255, 255, 1);
+   
+    margin-bottom: 59px;
+
+}
+h1 span{
+    color:rgba(0, 191, 166, 1);
+    font-weight: bold;
+}
+section p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    color:rgba(194, 194, 194, 1);
+    font-weight: 400;
+    
+}
+p span{
+    color:rgba(0, 191, 166, 1);
+    font-weight: bold;
+}
+
+.line{
+
+    width: 570px;
+    height: 0;
+    
+    border: 1px solid  rgba(0, 191, 166, 1);
+
+    margin: 167px auto 27px;
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px auto 23px;
+}
+footer a{
+
+    text-decoration:none;
+    color: rgba(255, 255, 255, 1);
+}
+footer a:hover{
+    color: rgba(0, 191, 166, 1);
+}
+
+.cadeado{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
